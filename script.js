@@ -23,7 +23,7 @@
 >         let longitude = place.location.lng;
 > 
 >         let model = document.createElement('a-entity');
->         model.setAttribute('gps-entity-place', `latitude: $35.3838139; longitude: $139.4711693;`);
+>model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 >         model.setAttribute('gltf-model', 'img/demo.gltf');
 >         model.setAttribute('rotation', '0 0 0');
 >         model.setAttribute('animation-mixer', '');
