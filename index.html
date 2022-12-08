@@ -1,4 +1,4 @@
- <html>
+<html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -6,8 +6,7 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v4.2.0/dist/aframe-extras.min.js"></script>
- </head>
+  </head>
 
   <body style="margin: 0; overflow: hidden;">
     <a-scene
@@ -15,11 +14,13 @@
       embedded
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
-     <a-entity gltf-model="img/Enoshima2.gltf"
+      <a-entity
+        gltf-model="img/Enoshima2.gltf"
         look-at="[gps-camera]"
-        gps-entity-place="latitude: 35.3863858; longitude: 139.4703161;"
+        scale="10 10 10"
+        gps-entity-place="latitude: 35.3862978; longitude: 139.4705615;"
       ></a-entity>
-      <a-camera gps-camera=""gpsminDiatance:10; maxDistance:30; rotation-reader> </a-camera>
+      <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
 </html>
