@@ -8,8 +8,8 @@
 >         {
 >             name: 'demo',
 >             location: {
->                 lat: 35.3838139,
->                 lng: 139.4711693,
+>                 lat: 35.3861417,
+>                 lng: 139.4707274,
 >             }
 >         },
 >     ];
@@ -24,7 +24,7 @@
 > 
 >         let model = document.createElement('a-entity');
 >model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
->         model.setAttribute('gltf-model', 'img/demo.gltf');
+>         model.setAttribute('gltf-model', 'img/Enoshima2.gltf');
 >         model.setAttribute('rotation', '0 0 0');
 >         model.setAttribute('animation-mixer', '');
 >         model.setAttribute('scale', '0.5 0.5 0.5');
